@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Owl carousel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.css" integrity="sha512-tJYqW5NWrT0JEkWYxrI4IK2jvT7PAiOwElIGTjALSyr8ZrilUQf+gjw2z6woWGSZqeXASyBXUr+WbtqiQgxUYg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+        <img src="images/logo%20(1).png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto mx-2">
+                <input class="form-control text-white  bg-dark me-2" type="text" placeholder="Search">
+                <div class="dropdown">
+                    <a class="btn btn-close-white    dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </ul>
+
+            <form class="d-flex box-img">
+                <img class="px-2" src="images/flag%20(1).png" alt="">
+
+                <img class="px-2" src="images/topbar%20apps.png" alt="">
+                <img class="px-2" src="images/user.png" alt="">
+            </form>
+        </div>
+    </div>
+
+</nav>
+<div class="container-fluid">
+<div class="col-xl-12 ">
+    <div class="row">
+
+        <div class="card">
+            <div class="container d-flex">
+                <div class="dropdown">
+                    <a class="btn btn-close-white text-white   dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Dashboards
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="btn btn-close-white text-white   dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        UI Elements
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div> <div class="dropdown">
+                <a class="btn btn-close-white text-white   dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Apps
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div> <div class="dropdown">
+                <a class="btn btn-close-white text-white   dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Components
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div> <div class="dropdown">
+                <a class="btn btn-close-white text-white   dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Extra pages
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+                <div class="dropdown">
+                    <a class="btn btn-close-white text-white   dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Layouts
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container ">
+
+
+
+
+
+    <div class="row mt-5  box-1-12">
+        <h2>Horizontal</h2>
+        <div class="col-xl-4">
+
+            <div class="card">
+                <div class="box d-flex justify-content-between" >
+                    <div >
+                        <h5>Welcome Back !</h5>
+                        <p>Skote Dashboard</p>
+                    </div>
+
+                </div>
+                <div class="box1 p-2 d-flex justify-content-between">
+                    <img class="user" src="images/user.png" alt="">
+                    <div  class="box1-1">
+
+                        <h4>Henry Price</h4>
+                        <p>UI / UX Designer</p>
+                    </div>
+                    <div class="box1-1">
+                        <p>125</p>
+                        <p>Projects</p>
+                    </div>
+                    <div class="box1-1">
+
+                        <p>  $1245</p>
+                        <p>Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="box2 p-2 d-flex justify-content-between">
+                            <div>
+                                <p>Orders</p>
+                                <p>1,235</p>
+                            </div>
+                            <div>
+                                <img class="img-fluid img" src="images/icon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="box2 p-2 d-flex justify-content-between">
+                            <div>
+                                <p>Orders</p>
+                                <p>1,235</p>
+                            </div>
+                            <div>
+                                <img class="img-fluid img" src="images/icon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="box2 p-2 d-flex justify-content-between">
+                            <div>
+                                <p>Orders</p>
+                                <p>1,235</p>
+                            </div>
+                            <div>
+                                <img class="img-fluid img" src="images/icon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="col-xl-12">
+        <div class="row mt-4" >
+            <div class="col-4 box3">
+                <div class="card">
+
+                    <div class="box3 p-3 " >
+
+                        <div><h3>Monthly Earning</h3>
+                            <p>This month</p>
+                            <b class="number">$34,252</b>
+                            <p class="text-from">From previous period</p>
+
+
+                            <button class="button">View More </button>
+
+                            <p class="text-p">We craft digital, graphic and dimensional thinking.</p>
+                        </div>
+
+                        <div class="box11 " id="chart1">
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="col-xl-8 " id="col-xl-8">
+
+                <div class="box5" id="chart">
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="row mt-5">
+            <div class="col-xl-4 "><div class="card"><div class="box22 p-3">
+                <b>Social Source</b><br>
+                <img class="images"  src="images/fb%20icon1.png" alt="">
+                <div><b class="Facebook">Facebook -</b> <span>125 sales</span>
+                    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
+                        liberovenenatis faucibus tincidunt.</p>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn box-drobdoun   dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropend
+                        </button>
+                        <ul class="dropdown-menu">
+                            <!-- Dropdown menu links -->
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="box13">
+                            <img class="px-3" src="images/icon%20(2).png" alt="">
+                            <p class="Facebook2">Facebook</p>
+                            <p>125 sales</p>
+                        </div>
+                        <div class="box13">
+                            <img class="px-3" src="images/icon3.png" alt="">
+                            <p class="Facebook2">Facebook</p>
+                            <p>125 sales</p>
+                        </div>
+                        <div class="box13">
+                            <img class="px-3" src="images/icon4.png" alt="">
+                            <p class="Facebook2">Facebook</p>
+                            <p>125 sales</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div></div></div>
+            <div class="col-xl-4 "><div class="card"><div class="box22 p-3">
+                <b>Activity</b>
+                <div class="box22-2 d-flex justify-content-between">
+                    <img class="icon" src="images/bx-right-arrow-circle.png" alt="">
+                    <!--                    <img  class="icon1" src="images/icon22.png" alt="">-->
+                    <p>22 Nov</p>
+                    <p>Responded to need “Volunteer Activities</p>
+                </div>
+                <div class="box22-2 d-flex justify-content-between">
+                    <img class="icon" src="images/bx-right-arrow-circle.png" alt="">
+                    <img  class="icon1" src="images/icon22.png" alt="">
+                    <p>17 Nov</p>
+                    <p>Everyone realizes why a new common language
+                        would be desirable... <a class="Read" href="#">Read more</a></p>
+                </div>
+                <div class="box22-2 d-flex justify-content-between">
+                    <img class="icon" src="images/bx-right-arrow-circle.png" alt="">
+                    <!--                    <img  class="icon1" src="images/icon22.png" alt="">-->
+                    <p>15 Nov</p>
+                    <p>Joined the group “Boardsmanship Forum”</p>
+                </div>
+                <div class="box22-2 d-flex justify-content-between">
+                    <img class="icon" src="images/bx-right-arrow-circle.png" alt="">
+                    <!--                    <img  class="icon1" src="images/icon22.png" alt="">-->
+                    <p>12 Nov</p>
+                    <p>Responded to need “In-Kind Opportunity”</p>
+
+                </div>
+                <button class="btn button3 btn-primary">View More</button>
+            </div></div></div>
+            <div class="col-xl-4 "><div class="card"><div class="box22 p-3">
+                <b>Top Cities Selling Product</b>
+                <div class="img-p">
+                    <img class="px-2 pt-5" src="images/Location%20icon.png" alt="">
+                    <p class="p px-1">1,456</p>
+                    <p class="text-img-p">San Francisco</p>
+                </div>
+
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td>San Francisco</td>
+                        <td>1,456</td>
+                        <td><div class="progress" style="height:5px">
+                            <div class="progress-bar" style="width:90%;height:5px"></div>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td>Los Angeles</td>
+                        <td>1,123</td>
+                        <td><div class="progress" style="height:5px">
+                            <div class="progress-bar bg-success" style="width:80%; height:5px"></div>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td>San Diego</td>
+                        <td>1,026</td>
+                        <td><div class="progress" style="height:5px">
+                            <div class="progress-bar bg-warning" style="width:70%; height:5px"></div>
+                        </div></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div></div></div>
+
+
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-xl-12">
+                <div class="card">
+                    <table class="table">
+                        <thead>
+                        <tr class="table-secondary">
+
+                            <th >
+                                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+
+                            </th>
+                            <th>Order ID</th>
+                            <th>Billing Name</th>
+                            <th>Date</th>
+                            <th>Total</th>
+                            <th>Payment Status</th>
+                            <th>Payment Method</th>
+                            <th>View Details</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>
+                                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+
+                            </th>
+                            <th>#SK2540</th>
+                            <td>Neal Matthews</td>
+                            <td>07 Oct, 2019</td>
+                            <td>$400</td>
+                            <td><span class="badge rounded-pill bg-success">Success</span></td>
+                            <td><img src="images/cc-mastercard%201.png" alt="">  Mastercard</td>
+                            <td><h1 class="badge rounded-pill bg-primary">View Details</h1></td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+
+                            </th>
+                            <th>#SK2540</th>
+                            <td>Neal Matthews</td>
+                            <td>07 Oct, 2019</td>
+                            <td>$400</td>
+                            <td><span class="badge rounded-pill bg-warning">Success</span></td>
+                            <td><img src="images/cc-mastercard%201.png" alt="">  Mastercard</td>
+                            <td><h1 class="badge rounded-pill bg-primary">View Details</h1></td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                            </th>
+                            <th>#SK2540</th>
+                            <td>Neal Matthews</td>
+                            <td>07 Oct, 2019</td>
+                            <td>$400</td>
+                            <td><span class="badge rounded-pill bg-success">Success</span></td>
+                            <td><img src="images/cc-mastercard%201.png" alt="">  Mastercard</td>
+                            <td><h1 class="badge rounded-pill bg-primary">View Details</h1></td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+
+                            </th>
+                            <th>#SK2540</th>
+                            <td>Neal Matthews</td>
+                            <td>07 Oct, 2019</td>
+                            <td>$400</td>
+                            <td><span class="badge rounded-pill bg-success">Success</span></td>
+                            <td><img src="images/cc-mastercard%201.png" alt="">  Mastercard</td>
+                            <td><h1 class="badge rounded-pill bg-primary">View Details</h1></td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+
+                            </th>
+                            <th>#SK2540</th>
+                            <td>Neal Matthews</td>
+                            <td>07 Oct, 2019</td>
+                            <td>$400</td>
+                            <td><span class="badge rounded-pill bg-danger">Success</span></td>
+                            <td><img src="images/cc-mastercard%201.png" alt="">  Mastercard</td>
+                            <td><h1 class="badge rounded-pill bg-primary">View Details</h1></td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+
+                            </th>
+                            <th>#SK2540</th>
+                            <td>Neal Matthews</td>
+                            <td>07 Oct, 2019</td>
+                            <td>$400</td>
+                            <td><span class="badge rounded-pill bg-success">Success</span></td>
+                            <td><img src="images/cc-mastercard%201.png" alt="">  Mastercard</td>
+                            <td><h1 class="badge rounded-pill bg-primary">View Details</h1></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-12 mt-5 d-flex justify-content-between">
+        <p>2020 © Skote.</p>
+        <p>Design & Develop by Themesbrand</p>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.js" integrity="sha512-sa449wQ9TM6SvZV7TK7Zx/SjVR6bc7lR8tRz1Ar4/R6X2jOLaFln/9C+6Ak2OkAKZ/xBAKJ94dQMeYa0JT1RLg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script>
+    var options = {
+        series: [67],
+        chart: {
+            height: 250,
+            type: 'radialBar',
+            offsetY: -10
+        },
+        plotOptions: {
+            radialBar: {
+                startAngle: -135,
+                endAngle: 135,
+                dataLabels: {
+                    name: {
+                        fontSize: '16px',
+                        color: undefined,
+                        offsetY: 120
+                    },
+                    value: {
+                        offsetY: 76,
+                        fontSize: '22px',
+                        color: undefined,
+                        formatter: function (val) {
+                            return val + "%";
+                        }
+                    }
+                }
+            }
+        },
+        fill: {
+            type: 'gradient',
+            gradient: {
+                shade: 'dark',
+                shadeIntensity: 0.15,
+                inverseColors: false,
+                opacityFrom: 1,
+                opacityTo: 1,
+                stops: [0, 50, 65, 91]
+            },
+        },
+        stroke: {
+            dashArray: 4
+        },
+        labels: ['Median Ratio'],
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart1"), options);
+    chart.render();
+
+</script>
+<script>
+    var options = {
+        series: [{
+            name: 'PRODUCT A',
+            data: [44, 55, 41, 67, 22, 43, 21, 49]
+        }, {
+            name: 'PRODUCT B',
+            data: [13, 23, 20, 8, 13, 27, 33, 12]
+        }, {
+            name: 'PRODUCT C',
+            data: [11, 17, 15, 15, 21, 14, 15, 13]
+        }],
+        chart: {
+            type: 'bar',
+            height: 350,
+            stacked: true,
+            stackType: '80%'
+        },
+        responsive: [{
+            breakpoint: 480,
+            options: {
+                legend: {
+                    position: 'bottom',
+                    offsetX: -10,
+                    offsetY: 0
+                }
+            }
+        }],
+        xaxis: {
+            categories: ['2011 Q1', '2011 Q2', '2011 Q3', '2011 Q4', '2012 Q1', '2012 Q2',
+                '2012 Q3', '2012 Q4'
+            ],
+        },
+        fill: {
+            opacity: 1
+        },
+        legend: {
+            position: 'right',
+            offsetX: 0,
+            offsetY: 60
+        },
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+
+</script>
+
+</body>
+</html>

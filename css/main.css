@@ -1,0 +1,167 @@
+body{
+    background:  #F5F5F5;;
+    margin: 0;
+
+}
+.box {
+    background: #D4DAF9;
+    border-radius: 3.25px;
+background-image: url("../images/image.png");
+    height: 128px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 150px;
+}
+.user{
+    position: absolute;
+    top: 100px;
+}
+.icon{
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+}
+.card{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    height: 143px;
+}
+.img{
+    padding: 25px;
+}
+.box1-1{
+    padding-top: 50px;
+}
+.button{
+    margin-top: 5px;
+    width: 95px;
+    height: 27px;
+    background: #556EE6;
+    border-radius: 2.6px;
+    border: none;
+    color: #ffffff;
+}
+.text-p{
+    margin-top: 28px;
+    color: #74788D;
+}
+
+.number{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.75px;
+    line-height: 34px;
+
+    color: #495057;
+}
+#chart1{
+    padding-left: 180px;
+}
+.box-1-12{
+    margin-top: 80px;
+}
+#chart1{
+    position: absolute;
+    top: 0;
+}
+.text{
+    padding-top: 20px;
+}
+.box5{
+    transform: translate(0px,-150px);
+    top: 0px;
+    height: 430px;
+    background-color: #ffffff;
+    border-radius: 5px ;
+}
+#col-xl-8{
+    height: 279px;
+}
+.images{
+    margin: 20px auto;
+    display: block;
+}
+.Facebook{
+    margin-left:100px;
+}
+.box-drobdoun{
+    margin-left: 135px;
+    color: #556EE6;
+}
+.Facebook2{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #495057;
+}
+.box22{
+    height: 388px;
+}
+.box3{
+    height: 279px;
+}
+.card{
+    border: none;
+}
+.box22-2{
+    margin-top: 25px;
+}
+.Read{
+    text-decoration: none;
+}
+.icon1{
+    display: none;
+    width: 19px;
+    height: 19px;
+
+}
+.img-p{
+    margin-left: 150px;
+}
+.icon{
+    display: block;
+}
+.icon1:hover{
+    display: block;
+}
+.button3{
+    margin-left: 35%;
+}
+.p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.75px;
+    line-height: 34px;
+    color: #495057;
+}
+
+.text-img-p{
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    padding: 0;
+
+    color: #495057;
+
+}
+.box-img{
+    width: 16px;
+    height: 16px;
+    margin-right: 80px;
+}
+.dropdown1{
+    color: #E9ECEF;
+}
+.dropdown1:hover{
+    color: #E9ECEF;
+}
+.progress{
+    width: 175px;
+    margin-top: 10px;
+}
